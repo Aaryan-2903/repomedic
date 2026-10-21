@@ -1,0 +1,10 @@
+{
+  "id": "sample-calculator-bug",
+  "name": "Calculator Division By Zero & Sign Inversion",
+  "language": "python",
+  "difficulty": "beginner",
+  "description": "The divide function raises unhandled ZeroDivisionError and miscomputes division with negative operands due to incorrect floor logic.",
+  "reproduce_cmd": "python -m unittest test_calc.py",
+  "expected_failure_pattern": "AssertionError",
+  "target_file": "calc.py"
+}
